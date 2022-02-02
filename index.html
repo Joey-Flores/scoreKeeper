@@ -18,9 +18,10 @@
         <h1>Ping Pong Score Keeper</h1>
       </div>
       <div id="score">
-        <h1 id="player1">0</h1>
-        <h1>to</h1>
-        <h1 id="player2">0</h1>
+        <h1>
+          <span id="p1Display" class="">0</span> to
+          <span id="p2Display" class="">0</span>
+        </h1>
       </div>
       <h2>Use the buttons below to keep score.</h2>
       <div id="playingTo">
@@ -37,9 +38,9 @@
         </select>
       </div>
       <div id="buttons">
-        <button id="green" class="buttons">+1 Player One</button>
-        <button id="blue" class="buttons">+1 Player Two</button>
-        <button id="red" class="buttons">Reset</button>
+        <button id="p1Button" class="buttons">+1 Player One</button>
+        <button id="p2Button" class="buttons">+1 Player Two</button>
+        <button id="reset" class="buttons">Reset</button>
       </div>
     </div>
     <script src="app.js"></script>

@@ -52,15 +52,15 @@ h2 {
   transform: translateY(4px);
 }
 
-#green {
+#p1Button {
   background-color: yellowgreen;
 }
 
-#blue {
+#p2Button {
   background-color: teal;
 }
 
-#red {
+#reset {
   background-color: tomato;
 }
 
@@ -69,4 +69,12 @@ img {
   max-height: 100%;
   margin: auto;
   display: block;
+}
+
+.won {
+  color: green;
+}
+
+.lost {
+  color: red;
 }
