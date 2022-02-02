@@ -30,8 +30,6 @@ let p2Display = document.querySelector('#p2Display');
 let p1Clicks = 0;
 let p2Clicks = 0;
 
-let select = 0;
-
 let gameOver = false;
 
 p1Button.addEventListener('click', function () {
@@ -47,7 +45,9 @@ p1Button.addEventListener('click', function () {
                 p1Display.classList.add('won');
                 p2Display.classList.add('lost');
             }
-    }    
+    } else {
+        alert('Please select the number you are playing to')
+    }  
 })
 
 p2Button.addEventListener('click', function () {
@@ -63,7 +63,9 @@ p2Button.addEventListener('click', function () {
                 p2Display.classList.add('won');
                 p1Display.classList.add('lost');
             }
-    }
+    } else {
+        alert('Please select the number you are playing to')
+    }  
 })
 
 reset.addEventListener('click', function () {
